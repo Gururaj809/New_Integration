@@ -32,5 +32,5 @@ jobs:
       - name: Run Testsigma Automation Suites
         run: |
           cd ${{ github.workspace }}/shell
-          chmod a+x new_testsigmaintegration.sh
-          ./new_testsigmaintegration.sh
+          chmod a+x new_shellscript.sh
+          ./new_shellscript.sh
